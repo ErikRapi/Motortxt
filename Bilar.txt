@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motortxt - Köp din drömbil</title>
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #444;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+        .car {
+            background-color: white;
+            color: #333;
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+            width: 300px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .car img {
+            width: 100%;
+            height: auto;
+        }
+        .car-image {
+            width: 150px;
+            height: auto;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Motortxt - Köp din drömbil</h1>
+    </header>
+    <nav>
+        <a href="Hem.html">Hem</a>
+        <a href="Bilar.html">Bilar till salu</a>
+        <a href="Kontakt.html">Kontakta oss</a>
+    </nav>
+    <div class="container">
+        <div class="car">
+            <img src="G wagon.jpg" alt="G wagon">
+            <h2>Mercedes G-Class City Route</h2>
+            <p>Pris: 4 200 000 kr</p>
+            <p>Årsmodell: 2020</p>
+            <p>Skick: Ny</p>
+            <p>Köp Nu</p>
+        </div>
+        <div class="car">
+            <img src="audi.jpg" alt="Audi">
+            <h2>Audi R8 Sport</h2>
+            <p>Pris: 3 700 000 kr</p>
+            <p>Årsmodell: 2022</p>
+            <p>Skick: Ny</p>
+            <p>Köp Nu</p>
+        </div>
+        <div class="car">
+            <img src="Porsche.jpg" alt="Porsche">
+            <h2>Porsche Cayanne</h2>
+            <p>Pris: 1 500 000 kr</p>
+            <p>Årsmodell: 2012</p>
+            <p>Skick: Begagnad</p>
+            <p>Köp Nu</p>
+        </div>
+        <div class="car">
+            <img src="nissan.jpg" alt="Nissan">
+            <h2>Nissan Maxima</h2>
+            <p>Pris: 350 000 kr</p>
+            <p>Årsmodell: 2021</p>
+            <p>Skick: Begagnad</p>
+            <p>Köp Nu</p>
+        </div>
+        <div class="car">
+            <img src="volvo.jpg" alt="Volvo">
+            <h2>Volvo XC90</h2>
+            <p>Pris: 600 000 kr</p>
+            <p>Årsmodell: 2023</p>
+            <p>Skick: Ny</p>
+            <p>Köp Nu</p>
+        </div>
+        <div class="car">
+            <img src="Tesla.jpg" alt="Tesla">
+            <h2>Tesla Model S</h2>
+            <p>Pris: 900 000 kr</p>
+            <p>Årsmodell: 2022</p>
+            <p>Skick: Ny</p>
+            <p>Köp Nu</p>
+        </div>
+        <div class="car">
+            <img src="Bmw.jpg" alt="BMW">
+            <h2>BMW 8-serie </h2>
+            <p>Pris: 1 300 000 kr</p>
+            <p>Årsmodell: 2024</p>
+            <p>Skick: Ny</p>
+            <p>Köp Nu</p>
+        </div>
+         <div class="car">
+            <img src="Ford.jpg" alt="Ford">
+            <h2>Ford Ranger Raptor </h2>
+            <p>Pris: 2 000 000 kr</p>
+            <p>Årsmodell: 2022</p>
+            <p>Skick: Ny</p>
+            <p>Köp Nu</p>
+        </div>
+        <div class="car">
+            <img src="Range Rover.jpg" alt="Range Rover">
+            <h2>Range Rover Sport P400e</h2>
+            <p>Pris: 2 000 000 kr</p>
+            <p>Årsmodell: 2021</p>
+            <p>Skick: Ny</p>
+            <p>Köp Nu</p>
+        </div>
+    </div>
+</body>
+</html>

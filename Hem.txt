@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Välkommen till Motortxt</title>
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+        .welcome {
+            background-color: white;
+            color: #333;
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+            width: 600px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .welcome-button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        nav {
+            background-color: #444;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Välkommen till Motortxt</h1>
+    </header>
+    <nav>
+        <a href="Hem.html">Hem</a>
+        <a href="Bilar.html">Bilar till salu</a>
+        <a href="Kontakt.html">Kontakta oss</a>
+    </nav>
+    <div class="container">
+        <div class="welcome">
+            <h2>Välkommen till Motortxt</h2>
+            <p>Här hittar du ett stort utbud av bilar att välja mellan. Oavsett om du letar efter en lyxig SUV, en sportig coupe eller en pålitlig familjebil, har vi något för dig.</p>
+            <p>Vi erbjuder bilmodeller från några av världens främsta tillverkare, inklusive Mercedes-Benz, Audi, Porsche, Nissan och Volvo.</p>
+            <p>Varje bil i vårt sortiment är noggrant utvald och erbjuder hög kvalitet, prestanda och komfort.</p>
+            <p>Utforska vårt sortiment och hitta din drömbil idag.</p>
+            <a class="welcome-button" href="bilar.html">Bilar till salu</a>
+        </div>
+    </div>
+</body>
+</html>
+
